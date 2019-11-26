@@ -4,3 +4,35 @@
         height: 350px
     @media (min-width: 992px)
         height: 500px
+    .header-brand
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        background-color: rgba(0,0,0,0.6)
+        display: flex
+        justify-content: center
+        align-items: center
+        color: #ffffff
+        h1
+            font-size: 2rem
+            font-family: $header-font
+            letter-spacing: .5rem
+            @media (min-width: 768px)
+                font-size: 4rem
+                letter-spacing: 1rem
+            @media (min-width: 992px)
+                font-size: 6rem
+                letter-spacing: 2rem
+            &::after
+                content: ''
+                height: 1px
+                width: 50%
+                border-bottom: 3px solid rgba(#ffffff, .4)
+                z-index: 30
+                position: relative
+                bottom: -10px
+                left: 25%
+                right: 25%
+                display: block
