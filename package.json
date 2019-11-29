@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "http://brasim81.io/bypassNurseries",
+  "homepage": "https://brasim81.github.io/bypassNurseries",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
