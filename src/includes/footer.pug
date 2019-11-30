@@ -1,15 +1,15 @@
 footer.bg-dark
     .container
-        .row
-            .col-md-8.my-5.text-white
+        .row#contact
+            .col-md-8.my-5.text-white.wow.fadeInLeft(data-wow-offset="20" data-wow-duration="2s")
                 h3 Bypass Nurseries
                 p A46 Evesham Bypass <br/> Evesham <br/ >Worcestershire <br/> WR11 8UB
-                button.btn.btn-outline-light.btn-sm(type="button", href="mailto:info@bypass-nurseries.co.uk")
+                button.btn.btn-outline-light.btn-sm.mr-2(type="button", href="mailto:info@bypass-nurseries.co.uk")
                     i.fas.fa-envelope-open-text  Email
                 button.btn.btn-outline-light.btn-sm(type="button", href="tel:01386424218")
                     i.fas.fa-mobile-alt  Phone
 
-            .col-md-4.my-5.mx-auto
+            .col-md-4.my-5.mx-auto.wow.fadeInRight(data-wow-offset="20" data-wow-duration="2s")
                 ul.nav.flex-column.nav-fill
                     li.nav-item
                         a.nav-link(href="#home") Home
@@ -23,8 +23,8 @@ footer.bg-dark
             .col-md-8
                 a(href="")
                     i.fab.fa-facebook-square.fa-x3
-            .col-md-4.text-white.d-flex.justify-content-end
-                i.far.fa-copyright(aria-hidden='true')  Bypass Nurseries 2019
+            .col-md-4.text-white.d-flex.justify-content-end.wow.fadeIn
+                i.p-3.far.fa-copyright(aria-hidden='true')  Bypass Nurseries 2019
 // JQuery js
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 // Bootstrap js
